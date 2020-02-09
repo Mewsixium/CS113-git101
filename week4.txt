@@ -1,0 +1,15 @@
+การนิยามฟังก์ชั่น
+return-value-type function-name( parameter-list )
+{
+    declarations
+    statement
+    statement
+    :
+}
+Function call by value
+จะส่งค่าไปที่ฟังก์ชั่นแบบ pass by value
+standard library เป็นการเรียกใช้ printf, scanf, getchar เป้นต้น โดย #include <stdio.h>
+math library เป็นการเรียกใช้ sqrt, exp, log เป้นต้น โดย #include <math.h>
+เมื่อโปรแกรมเจอคำสั่ง return ลำดับการทำงานของโปรแกรมจะกลับไปยังจุกล่าสุดที่โปรแกรมอยู่
+local variables จะเ็นตัวแหรเฉพาะในฟังก์ชั่นที่ถูกประกาศไว้
+global variables เป็นตัวแปรที่ถูกประกาศในนอกฟัง์ชั่น
