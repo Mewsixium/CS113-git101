@@ -1,0 +1,9 @@
+statements and blocks
+
+if , else if, else, while, for, switch case
+กำหนด block การทำงานโดยการใส่{} คลุมคำสั่งที่ต้องการให้block นั้นๆทำ
+์ีNull statement คือstatement mี่ไม่มีคำสั่ง มีเพียง ; (semi-colon)
+
+loop do-while จะทำ expreesion ก่นอ1ครั้งแล้วจึงมาตรวจสอบเงื่อนไขในครั้งถัดไปของ loop
+break สามารถใช้หยุดลูปเมื่อเข้าเงื่อนไขที่ต้องการ
+continue เมื่อเข้าเงื่อนไขใดๆ loop จะทำงานในรอบถัดไปทันที
