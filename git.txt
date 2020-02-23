@@ -1,0 +1,13 @@
+git clone < git-url => เพื่อน git repository ที่ที่เคยpushไว้ในgithub มาทำงานต่อ
+git branch <ชื่อbranchที่ต้องการสร้าง> => เพื่อสร้างbranch
+git branch => เพื่อตรวจสอบว่ามีbranchใดบ้าง
+git checkout <brance-name> => เพื่อเปลี่ยน branch เป็น branch mี่ต้องการ
+git status => ตรวจสอบสถานะgit 
+git log --all --decorate --oneline --graph => เพื่อดู Checkpoint ทั้งหมด
+git push => อัพเดทไฟล์ในgitให้เป็นสถานะล่าสุด
+git merge <ชื่อbranch> => คือการนำ branch ไปรวมกับ branch master ต้องเปลี่ยน branch เป็น masterก่อน
+git push origin master => push master ขึ้น github
+git pull =>ดึงการเปลี่ยนแปลงจาก branch
+ls -l => แสดงรายแฟ้มในdirectory นั้นๆ
+การmergeแบบมีconflict คือ การปรับแก้ไขข้อมูลในไฟล์เดิม บรรทัดเดิม ที่อยู่ต่าง Branch กันเมื่อ merge แล้ว git ตัดสินใจไม่ได้ว่าจะใช้ข้อมูลจาก branch ใด
+git checkout -b <ชื่อbranch> => คือการสร้าง branch และ สลับไปยังbranch mี่สร้างทันที
